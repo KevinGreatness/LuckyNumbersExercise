@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Apr 22 10:07:05 2025
+Updated with new skills on 9/22/26
 
 This program calculates Presidents lucky number by their age and name.
 It finds similar lucky numbers between Presidents, and creates panda data
