@@ -52,8 +52,8 @@ x
     """
 
     # Clean the string by only adding in alpha letters
-    name_letters_list = [letter for letter in name if letter.isalpha()]
-    clean_name = ''.join(name_letters_list).lower()
+    name_letters_list = [letter.lower() for letter in name if letter.isalpha()]
+    clean_name = ''.join(name_letters_list)
 
     # Calculate the total number from the strings letters
     total = 0
